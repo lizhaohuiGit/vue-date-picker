@@ -1,0 +1,57 @@
+.vui-inline-block {
+  display: inline-block;
+}
+
+
+.vui-clearfix:after {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: '.';
+}
+
+
+.vui-input {
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #DBE0EB;
+  border-radius: 2px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  outline: 0;
+}
+.vui-input:focus { outline: none; }
+
+
+.vui-button {
+  background:  #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0 17px;
+  height: 28px;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid #DBE0EB;
+  color: #4A4A4A;
+}
+.vui-button:active {
+  background-color: #f8f8fb;
+}
+.vui-button:hover {
+  background-color: #f8f8fb;
+}
+
+.vui-primary-button {
+  background:  #4A90E2;
+  color: #fff;
+  border: none;
+}
+.vui-primary-button:active {
+  background-color: #4281C9 ;
+}
+.vui-primary-button:hover {
+  background-color: #4281C9 ;
+}
